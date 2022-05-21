@@ -14,6 +14,7 @@ git add -A
 git commit -m 'deploy'
 
 # 部署到 https://<USERNAME>.github.io/<REPO>
-git push -f https://github.com/eepson123tw/mike-pratice.git master:gh-pages
+
+git push -f https://github.com/eepson123tw/vue3test2.git master:gh-pages
 
 cd -
