@@ -7,6 +7,14 @@ module.exports = {
       fontFamily: {
         sans: ["Open Sans", ...defaultTheme.fontFamily.sans],
       },
+      boxShadow: {
+        blue: "0 0 3px 3px #4285f4",
+      },
+    },
+  },
+  variants: {
+    extend: {
+      margin: ["first"],
     },
   },
   plugins: [],
